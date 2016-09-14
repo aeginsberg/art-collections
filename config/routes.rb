@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'application#art'
+  root 'art#index'
 end

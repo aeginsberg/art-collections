@@ -1,1 +1,11 @@
-hi
+
+<table>
+  <% @image_list.each do |title, image| %>
+  <tr>
+    <td><img src="<%= image %>" width=100></td>
+  </tr>
+  <tr>
+    <td><%= title %></td>
+  </tr>
+  <% end %>
+</table>
